@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 16px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+.main-col {
+    display: inline-block;
+    position: absolute;
+    left: calc(50% - 250px);
+    width: 500px;
+}
+.postas {
+    display: inline-block;
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.avatar {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+.avatar > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.name {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 70px;
+}
+.time {
+    display: inline-block;
+    position: absolute;
+    top: 35px;
+    left: 70px;
+}
+.text {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+}
+.image {
+    display: inline-block;
+    width: 100%;
+    background-color: lightgray;
+}
+.image img {
+    display: inline-block;
+    margin: calc((750px - 690px) / 2) calc((498px - 460px) / 2);
+}
+.double-image {
+    display: inline-block;
+}
+.double-image img {
+    display: inline-block;
+    height: calc(690px / 2);
+    width: calc(460px / 2);
+    margin: 20px calc(30px / 4);
+}
+.two-main-image {
+    display: inline-block;
+}
+.two-main-image img {
+    width: 450px;
+    height: 200px;
+    margin-left: calc((498px - 450px) / 2);
+    margin-right: calc((498px - 450px) / 2);
+}
+.two-images {
+    display: inline-block;
+}
+.two-images img {
+    width: 200px;
+    height: 200px;
+    margin-left: calc(90px / 4);
+    margin-right: calc(90px / 4);
+}
+.three-main-image {
+    display: inline-block;
+    float: left;
+}
+.three-main-image img {
+    width: calc(498px * 0.3);
+    height: 400px;
+}
+.three-images {
+    display: inline-block;
+    float: right;
+}
+.three-images img {
+    width: calc(498px * 0.5);
+    height: 110px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.like {
+    display: inline-block;
+    width: 100%;
+}
+.like button {
+    display: inline-block;
+    width: 25%;
+    margin: 10px calc(50% / 4);
+    border: none;
+    background-color: #fff;
+}
+.comment {
+    display: inline-block;
+    width: 100%;
+}
+.comment textarea {
+    resize: none;
+    width: 70%;
+    border-radius: 21px 0 0 21px;
+    border-right: none;
+    padding-left: 10px;
+}
+.comment > .avatar {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+.comment-bar {
+    display: inline-block;
+    border: 1px solid gray;
+    height: 42px;
+    border-radius: 0 21px 21px 0;
+    border-left: none;
+    position: absolute;
+    bottom: 4px;
+    padding-right: 10px;
+}
+.comment-bar > div {
+    display: inline-block;
+    padding: calc((42px - 16px) / 2) 0;
+}
